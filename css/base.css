@@ -1,0 +1,174 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif, "黑体";
+  color: #666666;
+  line-height: 2.0;
+  background: #fff;
+}
+.fL {
+  float: left;
+}
+.fR {
+  float: right;
+}
+.oH {
+  overflow: hidden;
+}
+.fS12 {
+  font-size: 12px;
+}
+.fS14 {
+  font-size: 14px;
+}
+.fS16 {
+  font-size: 16px;
+}
+.fS18 {
+  font-size: 18px;
+}
+.fS24 {
+  font-size: 24px;
+}
+.fS30 {
+  font-size: 30px;
+}
+.fWB {
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #0066b3;
+}
+.tabsSe {
+  border-bottom: 4px solid #0066b3;
+}
+.topBox {
+  background-color: #0066B3;
+  width: 100%;
+  height: 50px;
+}
+.topBox .topMain {
+  margin: 0 auto;
+  width: 960px;
+  line-height: 50px;
+}
+.topBox .topMain a {
+  color: #1dd9e2;
+}
+.topBox .topMain a:hover {
+  color: #ffffff;
+}
+.topBox .topMain li {
+  float: left;
+  color: #fff;
+  position: relative;
+  color: #1dd9e2;
+}
+.topBox .topMain li.fL {
+  margin-right: 12px;
+}
+.topBox .topMain li.fR {
+  margin-left: 8px;
+}
+.topBox .topMain li.se {
+  overflow: hidden;
+  background: url(../img/index_img/grjt.png) no-repeat bottom center;
+}
+.topBox .topMain li.se a {
+  color: #ffffff;
+}
+.topBox .topMain #shanrong {
+  position: relative;
+}
+.topBox .topMain #shanrong img {
+  position: absolute;
+  top: 14px;
+}
+.topBox .topMain #shanrong #shanrongLink {
+  display: none;
+  position: absolute;
+  left: 77px;
+  top: 11px;
+  width: 141px;
+  height: 28px;
+  line-height: 26px;
+  background: url(../img/index_img/hv_top.png);
+  text-align: center;
+}
+.topBox .topMain #shanrong #shanrongLink a {
+  margin: 0 5px;
+}
+.footer {
+  overflow: hidden;
+  width: 100%;
+}
+.footer .links {
+  width: 100%;
+  background-color: #025a9d;
+}
+.footer .links .linksBox {
+  margin: 0 auto;
+  width: 960px;
+  height: 40px;
+  padding: 5px 0;
+  line-height: 40px;
+}
+.footer .links .linksBox li {
+  padding-left: 20px;
+  text-align: center;
+}
+.footer .links .linksBox li a {
+  color: #1dd9e2;
+}
+.footer .links .linksBox li a:hover {
+  color: #ffffff;
+}
+.footer .copyRight {
+  overflow: hidden;
+  width: 100%;
+  background-color: #0066b3;
+}
+.footer .copyRight .copyRightBox {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 960px;
+  padding: 30px 0;
+}
+.footer .copyRight .copyRightBox .copyRightMain {
+  padding-top: 10px;
+  color: #ffffff;
+}
+.footer .copyRight .copyRightBox .copyRightMain > img {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.footer .copyRight .copyRightBox .copyRightMain .copyRightCont span {
+  display: inline-block;
+  padding-right: 25px;
+  line-height: 2;
+}
+.footer .copyRight .copyRightBox .erweima {
+  text-align: center;
+}
+.footer .copyRight .copyRightBox .erweima div {
+  overflow: hidden;
+  margin: 0 10px;
+  width: 67px;
+  height: 72px;
+  line-height: 1;
+  background-color: #ffffff;
+}
+.footer .copyRight .copyRightBox .erweima div img {
+  display: inline-block;
+}
